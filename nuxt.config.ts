@@ -3,6 +3,15 @@ import { NuxtConfig } from '@nuxt/types/config'
 
 const config: NuxtConfig = {
   ssr: true,
+  pwa: {
+    manifest: {
+      name: 'Smartliving PWA Demo',
+      short_name: 'Smartliving PWA',
+      description: 'Demo PWA built with FSXA',
+      background_color: '#ffffff',
+      theme_color: '#ffffff'
+    }
+  },
   /*
    ** Headers of the page
    */
